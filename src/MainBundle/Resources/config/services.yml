@@ -1,0 +1,5 @@
+services:
+    main.form.type.invitation:
+        class: MainBundle\Form\Type\InvitationType
+        tags:
+            - { name: form.type, alias: invitation }

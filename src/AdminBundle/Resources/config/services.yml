@@ -1,0 +1,13 @@
+services:
+    adminbundle.twig.mainbundle_extension:
+       class: AdminBundle\Twig\AdminbundleExtension
+       tags:
+           - { name: twig.extension }
+    admin.form.type.admin_login:
+        class: AdminBundle\Form\Type\AdminLoginType
+        tags:
+        - { name: form.type, alias: admin_login }
+    admin.form.type.edit_msl:
+        class: AdminBundle\Form\Type\EditMslType
+        tags:
+        - { name: form.type, alias: edit_msl }
