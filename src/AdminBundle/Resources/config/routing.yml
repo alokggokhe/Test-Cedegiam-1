@@ -26,9 +26,13 @@ therapeutic_area_user:
     path:   /therapeutic_area_user
     defaults: { _controller: AdminBundle:TherapeuticArea:index}
 
-therapeutic_area_add_edit:
-    path:   /therapeutic_area_add_edit
-    defaults: { _controller: AdminBundle:TherapeuticArea:addEdit}
+therapeutic_area_add:
+    path:   /therapeutic_area_add
+    defaults: { _controller: AdminBundle:TherapeuticArea:add}
+
+therapeutic_area_edit:
+    path:   /therapeutic_area_edit
+    defaults: { _controller: AdminBundle:TherapeuticArea:edit}
 
 therapeutic_area_list:
     path:   /therapeutic_area_list

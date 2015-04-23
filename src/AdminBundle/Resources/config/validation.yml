@@ -35,3 +35,4 @@ MainBundle\Entity\Msl:
             - Email :
                 checkMX: true
                 message: Email address is not valid
+
